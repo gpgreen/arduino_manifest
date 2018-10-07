@@ -18,7 +18,8 @@
 	   remote="pfeerick" />
   <project name="FreqMeasure" path="libraries/FreqMeasure"
 	   remote="stoffegren" />
-  <project name="MsTimer2" path="libraries/MsTimer2" />
+  <project name="MsTimer2" path="libraries/MsTimer2" 
+	   revision="refs/heads/atmega644" />
   <project name="EEPROMStore" path="libraries/EEPROMStore" />
   <project name="MotoPanel" path="libraries/MotoPanel" />
   <project name="motorcycle_instruments" />
