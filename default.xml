@@ -1,0 +1,26 @@
+<manifest>
+  <remote name="github" fetch="ssh://git@github.com/gpgreen/" />
+  <remote name="adafruit" fetch="https://github.com/adafruit/" />
+  <remote name="thomasfredericks" fetch="https://github.com/thomasfredericks/" />
+  <remote name="pfeerick" fetch="https://github.com/pfeerick/" />
+  <remote name="stoffegren" fetch="https://github.com/PaulStoffregen/" />
+  <default remote="github" revision="refs/heads/master" sync-j="4"/>
+  <project name="Adafruit-GFX-Library"
+	   path="libraries/Adafruit-GFX-Library"
+	   remote="adafruit" />
+  <project name="Adafruit-PCD8544-Nokia-5110-LCD-library"
+	   path="libraries/Adafruit-PCD8544-Nokia-5110-LCD-library"
+	   remote="adafruit" />
+  <project name="AnalogDiff" path="libraries/AnalogDiff"/>
+  <project name="Bounce2" path="libraries/Bounce2"
+	   remote="thomasfredericks" />
+  <project name="elapsedMillis" path="libraries/elapsedMillis"
+	   remote="pfeerick" />
+  <project name="FreqMeasure" path="libraries/FreqMeasure"
+	   remote="stoffegren" />
+  <project name="MsTimer2" path="libraries/MsTimer2" />
+  <project name="EEPROMStore" path="libraries/EEPROMStore" />
+  <project name="MotoPanel" path="libraries/MotoPanel" />
+  <project name="motorcycle_instruments" />
+</manifest>
+
